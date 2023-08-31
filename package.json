@@ -1,0 +1,31 @@
+{
+  "name": "ignite2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "@types/bcryptjs": "2.4.3",
+    "@types/node": "^20.5.0",
+    "eslint": "8.47.0",
+    "prisma": "5.1.1",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@prisma/client": "5.1.1",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.3.1",
+    "fastify": "^4.21.0",
+    "zod": "3.22.1"
+  }
+}
